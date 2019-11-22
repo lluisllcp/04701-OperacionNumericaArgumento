@@ -40,7 +40,7 @@ public final class App {
 
         System.out.print("Ingrese el numero 2 ...");
         N1 = SCN.nextInt();
-        //signatura    
+        //operaciones   
         System.out.printf("Entre %d y %d el mayor es %d%n", N1, N2,
                 /*llamada a metodo operar(mas abajo)*/ (int) operar(N1, N2, OP_MAY));
 
